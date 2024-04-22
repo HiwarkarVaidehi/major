@@ -254,6 +254,10 @@ ul a {
     justify-content: center;
     align-items: center;
 }
+.foot-panel3 h2{
+    font-size: medium;
+    margin-left: 50px;
+}
 
 .foot-panel4 {
     height: 80px;
@@ -435,3 +439,91 @@ button {
     margin-top: 20px;
     font-size: 20px;
 }
+
+/* Styles for hiding the form initially */
+.hidden {
+    display: none;
+}
+/* Hide the sign-up form by default */
+/* #signUpForm {
+    display: none;
+} */
+
+/* CSS to style the sign-up form popup */
+/* #signUpForm {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    z-index: 9999;
+} */
+
+/* CSS for sign-up form popup */
+/* #signUpForm {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 100px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+} */
+
+/* Add any additional CSS styling for the sign-up form popup here */
+/* CSS for sign-up form popup */
+#signUpForm {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 60px; /* Increase padding for larger size */
+    border: 2px solid #ccc;
+    border-radius: 20px; /* Increase border radius for rounded corners */
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    backdrop-filter: blur(8px); /* Apply blur effect to the background */
+}
+
+/* Sign-up form text styles */
+#signUpForm label {
+    font-size: 1em; /* Bigger font size for labels */
+}
+
+#signUpForm input[type="text"],
+#signUpForm input[type="email"],
+#signUpForm select {
+    font-size: 1em; /* Bigger font size for input fields */
+    padding: 10px; /* Increase padding for input fields */
+    border-radius: 5px; /* Add border radius to input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    width: 100%; /* Make input fields full width */
+    margin-bottom: 20px; /* Add space between input fields */
+}
+
+#signUpForm input[type="submit"] {
+    font-size: 1em;
+    padding: 15px 30px;
+    border: none;
+    background-color: #4b77a7;
+    color: white; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signUpForm input[type="submit"]:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Add any additional CSS styling for the sign-up form popup here */

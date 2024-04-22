@@ -26,3 +26,20 @@ document.getElementById('navigation-form').addEventListener('submit', function (
 Time: ${time} min`;
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var signUpButton = document.querySelector(".sign-up");
+
+    signUpButton.addEventListener("click", function() {
+        window.location.href = "index1.html";
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    var chatbotbutt = document.querySelector(".start-m");
+
+    chatbotbutt.addEventListener("click", function() {
+        window.location.href = "chatbot.html";
+    });
+});
